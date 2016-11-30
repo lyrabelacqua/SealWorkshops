@@ -1,0 +1,63 @@
+
+
+body {
+    background-color: black;
+}
+
+@keyframes movement{
+    0% {
+       top: 150px;
+       left: 20px; 
+       
+    }
+    
+ 
+   
+    
+    50% {
+        top: 10px;
+        left:400px;
+    }
+    
+   
+    
+    75% {
+        top: 70px;
+        left: 700px;
+    }
+    
+  
+    100% {
+        top: 20px;
+        left: 950px;
+    }
+}
+
+#moon {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 200px;
+}
+
+#light {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#shadow {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    position:absolute;
+    left: 60px;
+    top: -25px;
+
+}
