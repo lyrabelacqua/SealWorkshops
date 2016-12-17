@@ -1,0 +1,9 @@
+ #cage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+            
+#cage div img {
+    height: 200px;
+}
