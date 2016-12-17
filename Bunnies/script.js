@@ -27,5 +27,4 @@ button.addEventListener('click', function() {
     }
 });
             
-
 renderBunnies();
