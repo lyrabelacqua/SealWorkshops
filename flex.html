@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            .container {
+                
+                height: 100vh;
+                display: flexbox;
+                
+            }
+            
+            .container > div {
+                border: solid 1px red;
+                display: flex;
+                justify-content: space-between;
+                height: 50%;
+            }
+            
+            .container > div:last-child {
+                align-items: flex-end;
+            }
+            
+            .container > div > div {
+                background-color: yellow;
+                
+                height: 50%;
+                width: 12.5%;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div>1</div>
+                <div>2</div>
+            </div>
+            <div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+        </div>
+    </body>
+</html>
